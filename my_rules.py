@@ -270,22 +270,3 @@ if not os.path.exists('./output results/for bar/'):
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(headers)
         csvfile.close()
-
-
-# bar_plot_array = list(bar_plot.values)
-# print(bar_plot_array)
-# reading the csv file that stores the data from the program
-
-
-# with open(read_csv_path, 'a') as f_object:
-
-#     # Pass this file object to csv.writer()
-#     # and get a writer object
-#     writer_object = writer(f_object)
-
-#     # Pass the list as an argument into
-#     # the writerow()
-#     writer_object.writerow(bar_plot_array)
-
-#     # Close the file object
-#     f_object.close()
